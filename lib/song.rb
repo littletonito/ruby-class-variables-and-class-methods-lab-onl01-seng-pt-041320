@@ -32,9 +32,15 @@ class Song
    
    def self.genre_count
      genre_count = {}
+     @genres.each do
+    end
    end
    
-   
+  def self.artist_count
+     artist_count = {}
+     @artists.each do 
+      end
+  end
    
 end
 
